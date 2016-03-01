@@ -95,7 +95,7 @@ opts = Trollop::options do
   opt :region, 'The AWS region to use', :type => :string, :default => "us-west-2"
   opt :keyname, 'The EC2 keypair to use on the instances created', :type => :string, :required => true
   opt :domain, 'The Route 53 Hosted Zone that the Jenkins server will deploy to', :type => :string, :default => "example.com"
-  opt :email, 'The Admin email address', :type => :string, :default => "nayeem@cdsimplified.com"
+  opt :email, 'The Admin email address', :type => :string, :default => "nextgenops@cdsimplified.com"
   opt :opsworks, 'Use OpsWorks', :type => :boolean, :default => true
 end
 
