@@ -811,6 +811,10 @@
             "server": {
               "plugins": [
               {
+                "name": "analysis-core",
+                "version": "1.38"
+              },
+              {
                 "name": "ansicolor",
                 "version": "0.4.1"
               },
