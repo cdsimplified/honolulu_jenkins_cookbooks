@@ -1146,6 +1146,10 @@
             "server": {
               "plugins": [
               {
+                "name": "analysis-core",
+                "version": "1.65"
+              },
+              {
                 "name": "ansicolor",
                 "version": "0.4.1"
               },
